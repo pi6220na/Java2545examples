@@ -23,7 +23,7 @@ public class SwitchWithStrings {
                 System.out.println("The Python Foundation maintains Python");
                 break;
             default:
-                System.out.println("Don't know about that language");
+                System.out.println("I don't know about that language");
         }
 
         stringScanner.close();
