@@ -4,7 +4,7 @@ package week2;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class LoopGetDataForArray {
+public class LoopGetDataForArrayAndReadArray {
 
     static Scanner stringScanner = new Scanner(System.in);
     static Scanner numberScanner = new Scanner(System.in);
@@ -33,7 +33,15 @@ public class LoopGetDataForArray {
 
         System.out.println("Thank you: here is the data you entered");
 
-        System.out.println(Arrays.toString(textbooks));
+
+        for (int number = 0 ; number < textbooks.length ; number++) {
+            System.out.println(textbooks[number]);
+        }
+
+
+        for (int number = 0 ; number < textbooks.length ; number++) {
+            System.out.println("Book number " + (number+1) + " is " + textbooks[number]);
+        }
 
         stringScanner.close();
         numberScanner.close();

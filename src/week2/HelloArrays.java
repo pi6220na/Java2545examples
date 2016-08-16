@@ -129,8 +129,8 @@ public class HelloArrays {
             System.out.println(classrooms[x]);
         }
 
-        // This is a better way of looping over the array - it will still work even if we
-        // have a different number of classrooms
+        // This is a better way of looping over the array.
+        // Do you think this will work if we have a different number of classrooms?
         for (int x = 0 ; x < classrooms.length ; x++) {
             System.out.println(classrooms[x]);
         }
