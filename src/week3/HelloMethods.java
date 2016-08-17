@@ -2,29 +2,43 @@ package week3;
 
 import java.util.Scanner;
 
-public class ScannerTemplate {
+public class HelloMethods {
 
-    //Create two scanners, one for Strings, and one for numbers - int and float values.
-
-    //Use this scanner to read text data that will be stored in String variables
+    //Create two scanners
     static Scanner stringScanner = new Scanner(System.in);
-    //Use this scanner to read in numerical data that will be stored in int or double variables
     static Scanner numberScanner = new Scanner(System.in);
 
+    //This is the main method - the first code to run
     public static void main(String[] args) {
 
-        // Write your code between here...
+        System.out.println("Please enter your name");
+        String name = stringScanner.next();
+        String greeting = makeGreeting(name);
+        System.out.println(greeting);
 
 
-
-
-
-
-        // ... and here.
-
-        // Close scanners. Good practice to clean up resources you use.
-        // Don't try to use scanners after this point. All code that uses scanners goes above here.
+        //Close scanners.
         stringScanner.close();
         numberScanner.close();
-    }
-}
+
+    }    // This is the end of the main method.
+
+
+    // A new method that we've created.
+    // This method takes one argument, a String.
+    // It will create a new String made from the word "Hello"
+    // plus the String argument, plus an exclamation point !
+    // It will then return that new greeting String.
+    public static String makeGreeting(String n) {
+
+        String greeting = "Hello " + n + "!";
+        return greeting;
+
+    }    // The end of the makeGreeting method
+
+}   // End of the HelloMethods class
+
+
+
+
+

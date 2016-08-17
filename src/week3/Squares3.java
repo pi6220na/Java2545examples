@@ -1,25 +1,16 @@
 package week3;
 
-import java.util.Scanner;
-
 public class Squares3 {
-
-    //Create two scanners
-    static Scanner stringScanner = new Scanner(System.in);
-    static Scanner numberScanner = new Scanner(System.in);
 
     //This is the main method - the first code to run
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter a number and I'll square it");
-        double number = scanner.nextDouble();
-        double squaredNumber = square(number);
-        System.out.println("The square of " + number + " is " + squaredNumber);
+        System.out.println("Here are the squares of the numbers 1 to 10");
 
-        //Close scanners.
-        stringScanner.close();
-        numberScanner.close();
+        for (int x = 1 ; x <= 10 ; x++ ) {
+            double xsquared = square(x);
+            System.out.println("The square of " + x + " is " + xsquared);
+        }
 
     }    // This is the end of the main method.
 

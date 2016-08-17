@@ -11,11 +11,10 @@ public class MilesToKm {
     //This is the main method - the first code to run
     public static void main(String[] args) {
 
-        System.out.println("Please enter your name");
-        String name = stringScanner.next();
-        String greeting = makeGreeting(name);
-        System.out.println(greeting);
-
+        System.out.println("Please enter number of miles");
+        double miles = numberScanner.nextDouble();
+        double km = milesToKM(miles);
+        System.out.println(miles + " miles is equal to " + km + " kilometers");
 
         //Close scanners.
         stringScanner.close();
@@ -23,18 +22,14 @@ public class MilesToKm {
 
     }    // This is the end of the main method.
 
+    // This method takes one argument, a number of miles
+    // It calculates the equivalent in kilometers, and returns that value
+    public static double milesToKM(double miles) {
 
-    // A new method that we've created.
-    // This method takes one argument, a String.
-    // It will create a new String made from the word "Hello"
-    // plus the String argument, plus an exclamation point !
-    // It will then return that new greeting String.
-    public static String makeGreeting(String n) {
+        double km = miles * 1.6;   // One mile is 1.6 kilometers
+        return km;
 
-        String greeting = "Hello " + n + "!";
-        return greeting;
-
-    }    // The end of the makeGreeting method
+    }    // The end of the milesToKM method
 
 }
 
