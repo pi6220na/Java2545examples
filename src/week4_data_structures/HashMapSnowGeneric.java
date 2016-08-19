@@ -24,6 +24,17 @@ public class HashMapSnowGeneric {
 
         System.out.println("In January, " + janSnowfall + " inches of snow fell");
 
+        // When getting data, it will be an int so no need to cast.
+        // Generic types are very helpful.
+
+        int febSnowfall = (int) snowfall.get("February");
+
+        // Need data as int to do math
+        int total = janSnowfall + febSnowfall;
+        System.out.println("Total snow = " + total);
+
+
+
         for (String month : snowfall.keySet()) {
             System.out.println("Month: " + month);    // month is a key
             System.out.println("Snowfall inches: " + snowfall.get(month));  // get(month) is the value for that key
