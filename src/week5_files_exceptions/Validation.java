@@ -68,7 +68,6 @@ public class Validation {
                 numberScanner.next();   //Clear any other characters from the Scanner
             }
         }
-
     }
 
     // A variant of the method below - notice it calls intInput with null as the argument
