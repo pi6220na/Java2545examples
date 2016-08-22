@@ -7,9 +7,7 @@ public class CD extends Album {
 
 
     public CD(String artist, String title, double price) {
-        this.artist = artist;
-        this.title = title;
-        this.price = price;
+       super(artist, title, price);    //Call the Album constructor
     }
 
     @Override

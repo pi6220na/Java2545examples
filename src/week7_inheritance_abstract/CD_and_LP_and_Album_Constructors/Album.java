@@ -10,6 +10,12 @@ public class Album {
     protected String title;
     protected double price;
 
+    public Album(String artist, String title, double price) {
+        this.artist = artist;
+        this.title = title;
+        this.price = price;
+    }
+
     public String getArtist() {
         return artist;
     }

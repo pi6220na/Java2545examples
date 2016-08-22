@@ -8,10 +8,8 @@ public class LP extends Album {
    private int condition;   //1 = barely playable, 5 = mint
 
     public LP(String artist, String title, int condition, double price) {
-        this.artist = artist;
-        this.title = title;
-        this.condition = condition;
-        this.price = price;
+        super(artist, title, price);   //Call superclass constructor to set these variables
+        this.condition = condition;    //Only need to set the LP-specific condition
     }
 
     @Override

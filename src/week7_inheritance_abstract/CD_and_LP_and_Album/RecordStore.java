@@ -1,11 +1,14 @@
 package week7_inheritance_abstract.CD_and_LP_and_Album;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  * Record Store admin class - testing our CD and LP classes
  */
 public class RecordStore {
+
+    static Scanner stringScanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -35,7 +38,35 @@ public class RecordStore {
             System.out.println(cd);
         }
 
-        //TODO – add code to search for an album in all of the inventory, both CDs and LPs
+        //SEARCHING
+        //Create a master inventory list with all Albums in
+        ArrayList<Album> allInventory = new ArrayList<Album>();
+        allInventory.addAll(lpInventory);
+        allInventory.addAll(cdInventory);
 
+        //Search inventory for any CD or LP that matches a search term
+        System.out.println("Enter artist or title to search for. Works for partial artists/titles.");
+        String searchString = stringScanner.nextLine();
+        searchForAlbum(allInventory, searchString);
+
+        stringScanner.close();
     }
+
+
+
+    private static void searchForAlbum(ArrayList<Album> albums, String searchTerm){
+        searchTerm = searchTerm.toLowerCase();  //Work in lowercase
+        boolean found = false;
+        for (Album a : albums) {
+            //Check both artist and title for the searchTerm
+            if (a.getTitle().toLowerCase().contains(searchTerm) || 	a.getArtist().toLowerCase().contains(searchTerm)){
+                found = true;
+                System.out.println(a);
+            }
+        }
+        if (!found) {
+            System.out.println("No matching albums found that match " + searchTerm);
+        }
+    }
+
 }
