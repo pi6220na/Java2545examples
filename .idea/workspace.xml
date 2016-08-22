@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c65fe8e-737f-46c1-accc-1a560348ee2a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/Album.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/CD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/CD.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/LP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/LP.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album/RecordStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/RecordStore.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_no_inheritance/RecordStore.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" afterPath="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
@@ -74,21 +63,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Assignment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Assignment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="3" column="391" selection-start-line="3" selection-start-column="391" selection-end-line="3" selection-end-column="391" />
-              <folding />
+            <state vertical-scroll-proportion="0.68421054" vertical-offset="0" max-vertical-offset="600">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="e#902#903#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23239437" vertical-offset="0" max-vertical-offset="710">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="-5.892857" vertical-offset="0" max-vertical-offset="450">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -220,8 +213,8 @@
         <option value="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/Album.java" />
         <option value="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/CD.java" />
         <option value="$PROJECT_DIR$/src/week7_inheritance_abstract/CD_and_LP_and_Album_Constructors/LP.java" />
-        <option value="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" />
         <option value="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java" />
+        <option value="$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java" />
       </list>
     </option>
   </component>
@@ -857,7 +850,7 @@
       <created>1471360179225</created>
       <option name="number" value="Default" />
       <updated>1471360179225</updated>
-      <workItem from="1471360183024" duration="46324000" />
+      <workItem from="1471360183024" duration="47000000" />
     </task>
     <task id="LOCAL-00001" summary="Week 1 examples">
       <created>1471362566797</created>
@@ -869,7 +862,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46324000" />
+    <option name="totallyTimeSpent" value="47000000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -899,7 +892,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16687898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16687898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -917,7 +910,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25487012" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.059872612" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3566879" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1416,19 +1409,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java">
+    <entry file="file://$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="391" selection-start-line="3" selection-start-column="391" selection-end-line="3" selection-end-column="391" />
+        <state vertical-scroll-proportion="-5.892857" vertical-offset="0" max-vertical-offset="450">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/week7_inheritance_abstract/Static_Variables_Assignment/Assignment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23239437" vertical-offset="0" max-vertical-offset="710">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.68421054" vertical-offset="0" max-vertical-offset="600">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
