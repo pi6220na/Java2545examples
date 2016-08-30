@@ -2,10 +2,7 @@ package week2_loops_arrays;
 
 import java.util.Scanner;
 
-/**
- * Created by admin on 8/30/16.
- */
-public class ForLoopPassword5Attemps {
+public class ForLoopPassword5Attempts {
 
     static Scanner stringScanner = new Scanner(System.in);
     static Scanner numberScanner = new Scanner(System.in);
