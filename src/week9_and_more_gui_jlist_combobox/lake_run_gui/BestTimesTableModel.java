@@ -1,4 +1,4 @@
-package week9_extra_gui_examples.lake_run_gui;
+package week9_and_more_gui_jlist_combobox.lake_run_gui;
 
 import javax.swing.table.AbstractTableModel;
 import java.util.Vector;
