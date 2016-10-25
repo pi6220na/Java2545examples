@@ -8,12 +8,12 @@ import java.awt.event.ActionListener;
  * Created by we4954cp on 8/25/2016.
  */
 public class HelloGUI extends JFrame{
-    private JPanel rootPanel;
+    private JPanel mainPanel;
     private JButton clickMeButton;
     private JLabel myFirstLabel;
 
     protected HelloGUI() {
-        setContentPane(rootPanel);
+        setContentPane(mainPanel);
         pack();
         setVisible(true);
 
