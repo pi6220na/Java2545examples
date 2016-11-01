@@ -91,7 +91,6 @@ public class CCValidator extends JFrame {
         creditCardNumbertextField.addKeyListener(new KeyAdapter() {
             @Override
             public void keyTyped(KeyEvent e) {
-                super.keyTyped(e);
                 if (resetMessageOnKeyPress) {
                     validMessageLabel.setText("~ Valid or not valid displayed here ~");
                     resetMessageOnKeyPress = false;

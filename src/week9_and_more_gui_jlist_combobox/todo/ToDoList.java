@@ -30,6 +30,9 @@ public class ToDoList extends JFrame {
 
         addListeners();    //Move event listener configuration into separate method, keep things tidier .
 
+        //Configure the submitButton to be the default button that is clicked when the user presses the Enter key
+        getRootPane().setDefaultButton(addToDoButton);
+
         pack();
         setVisible(true);
     }
