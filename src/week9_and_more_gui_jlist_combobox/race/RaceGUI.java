@@ -16,16 +16,18 @@ import java.util.ArrayList;
 
 public class RaceGUI extends JFrame {
     private JPanel root;
-    private JTextArea startDistanceTextArea;
-    private JTextArea targetDistanceTextArea;
-    private JTextArea percentIncreaseTextArea;
     private JButton calculateButton;
     private JList<String> distanceList;
+    private JTextField percentIncreaseTextField;
+    private JTextField targetDistanceTextField;
+    private JTextField startDistanceTextField;
     private DefaultListModel<String> distanceListModel;
 
     RaceGUI () {
 
         setContentPane(root);
+
+        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         distanceListModel = new DefaultListModel<>();
         distanceList.setModel(distanceListModel);
@@ -34,30 +36,38 @@ public class RaceGUI extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
 
-                //Fetch data from 3 JTextFields, validate
+                //Fetch data from 3 JTextFields, and validate
                 String errorMessage = null;
                 double startDistance = 0 , targetDistance = 0 , percentIncrease = 0;
                 try {
-                    startDistance = Double.parseDouble(startDistanceTextArea.getText());
-                    targetDistance = Double.parseDouble(targetDistanceTextArea.getText());
-                    percentIncrease = Double.parseDouble(percentIncreaseTextArea.getText());
+                    startDistance = Double.parseDouble(startDistanceTextField.getText());
+                    targetDistance = Double.parseDouble(targetDistanceTextField.getText());
+                    percentIncrease = Double.parseDouble(percentIncreaseTextField.getText());
 
-                    if (percentIncrease < 0 || percentIncrease > 100) {
+                    if (startDistance < 0) {
+                        errorMessage = "Please enter a positive start distance";
+                    }
+
+                    else if (targetDistance < 0 || targetDistance <= startDistance) {
+                        errorMessage = "Target distance must be greater than start distance";
+                    }
+
+                    else if (percentIncrease < 0 || percentIncrease > 100) {
                         errorMessage = "Please enter a positive percent value, between 0 and 100";
                     }
 
+
+
                 } catch (NumberFormatException nfe) {
-                    errorMessage = "Please enter numerical values";
+                    errorMessage = "Please enter numerical values for all three inputs";
                 }
 
                 //Show error dialog if errorMessage has been set
                 if (errorMessage != null) {
-
                     JOptionPane.showMessageDialog(RaceGUI.this, errorMessage);
-
                 }
 
-                //Otherwise, data was validated successfully, calculate the schedule and display.
+                //Otherwise, data was validated successfully. Calculate the schedule and display.
 
                 else {
 

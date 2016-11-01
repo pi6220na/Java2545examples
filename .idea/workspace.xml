@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8e9d5c-bc37-4891-9c74-3de2558f8fc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" afterPath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" afterPath="$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.java" />
     </list>
     <ignored path="Java-Week1-Examples.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -103,11 +101,11 @@
       <file leaf-file-name="RaceGUI.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="342">
+              <caret line="61" column="79" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2919#2927#0" expanded="true" />
+                <element signature="e#3376#3384#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,9 +209,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
+    <option name="x" value="185" />
+    <option name="y" value="13" />
+    <option name="width" value="1141" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1161,7 +1159,7 @@
       <workItem from="1476370974039" duration="600000" />
       <workItem from="1477415857218" duration="2592000" />
       <workItem from="1478013624822" duration="591000" />
-      <workItem from="1478014238271" duration="4342000" />
+      <workItem from="1478014238271" duration="4834000" />
     </task>
     <task id="LOCAL-00001" summary="default button in GUI">
       <created>1478016603997</created>
@@ -1177,11 +1175,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478018836404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="marathon schedule distance calculator, in GUI form">
+      <created>1478021501775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1478021501775</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24257000" />
+    <option name="totallyTimeSpent" value="24749000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1204,7 +1209,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="185" y="13" width="1141" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1219,7 +1224,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14551084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24140401" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12858464" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1283,7 +1288,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="default button in GUI" />
     <MESSAGE value="tidied dog gui" />
-    <option name="LAST_COMMIT_MESSAGE" value="tidied dog gui" />
+    <MESSAGE value="marathon schedule distance calculator, in GUI form" />
+    <option name="LAST_COMMIT_MESSAGE" value="marathon schedule distance calculator, in GUI form" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1619,11 +1625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1635,13 +1636,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/week9_and_more_gui_jlist_combobox/race/RaceGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="342">
+          <caret line="61" column="79" selection-start-line="61" selection-start-column="79" selection-end-line="61" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2919#2927#0" expanded="true" />
+            <element signature="e#3376#3384#0" expanded="true" />
           </folding>
         </state>
       </provider>
